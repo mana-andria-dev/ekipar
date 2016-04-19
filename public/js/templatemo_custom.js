@@ -43,6 +43,13 @@ jQuery(document).ready(function($) {
 		return false;
 	});
 
+	$(".main-menu a.confluentibutton").click(function(){
+		$("#menu-container .content").fadeOut();
+		$("#menu-container .contact-confluenti").slideDown('slow');
+		loadScript();
+		return false;
+	});	
+
 
 
 	$('a.toggle-nav').click(function(){
