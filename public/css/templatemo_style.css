@@ -984,3 +984,8 @@ span[class*="border-"] {
 .pink-button:hover {
     color: #fff;
 }
+
+.conflRoad {
+    color: #004466;
+    font-size: large;
+}
